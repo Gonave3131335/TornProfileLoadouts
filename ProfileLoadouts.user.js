@@ -4,8 +4,8 @@
 // @version      1.1.2
 // @description  Displays loadout information on profile page
 // @author       Dexterity [3131335]
-// @updateURL    https://raw.githubusercontent.com/Gonave3131335/TornProfileLoadouts/main/ProfileLoadouts.js
-// @downloadURL  https://raw.githubusercontent.com/Gonave3131335/TornProfileLoadouts/main/ProfileLoadouts.js
+// @updateURL    https://github.com/Gonave3131335/TornProfileLoadouts/raw/main/ProfileLoadouts.user.js
+// @downloadURL  https://github.com/Gonave3131335/TornProfileLoadouts/raw/main/ProfileLoadouts.user.js
 // @match        https://www.torn.com/profiles.php?XID=*
 // @grant        GM_xmlhttpRequest
 // @connect      dystopia.tornbot.com
