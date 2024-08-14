@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Profile Loadouts
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.1.2
 // @description  Displays loadout information on profile page
 // @author       Dexterity [3131335]
 // @updateURL    https://github.com/Gonave3131335/TornProfileLoadouts/raw/main/ProfileLoadouts.js
