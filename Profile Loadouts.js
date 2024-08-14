@@ -4,6 +4,8 @@
 // @version      1.1
 // @description  Displays loadout information on profile page
 // @author       Dexterity [3131335]
+// @updateURL    https://raw.githubusercontent.com/Gonave3131335/TornProfileLoadouts/main/Profile%20Loadouts.js
+// @downloadURL  https://raw.githubusercontent.com/Gonave3131335/TornProfileLoadouts/main/Profile%20Loadouts.js
 // @match        https://www.torn.com/profiles.php?XID=*
 // @grant        GM_xmlhttpRequest
 // @connect      dystopia.tornbot.com
@@ -14,7 +16,7 @@
 
     const urlParams = new URLSearchParams(window.location.search);
     const userId = urlParams.get('XID');
-    const APIKey = ''; // Replace with your API key
+    const APIKey = ''; // Replace with your API key 
 
     if (!userId) {
         console.error("User ID not found in the URL.");
@@ -24,7 +26,7 @@
     const apiUrl = `https://dystopia.tornbot.com/api/v1/LoadOut/${userId}?key=${APIKey}`;
 
     const colorMap = {
-        0: '#d3d3d3', // light grey
+        0: '#d3d3d3', // light gray
         1: '#f1f154', // yellow
         2: '#eb8a27', // orange
         3: '#ED7E7E'  //red
