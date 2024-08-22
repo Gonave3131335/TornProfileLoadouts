@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Profile Loadouts
 // @namespace    http://tampermonkey.net/
-// @version      1.1.2
+// @version      1.1.3
 // @description  Displays loadout information on profile page
 // @author       Dexterity [3131335]
 // @updateURL    https://github.com/Gonave3131335/TornProfileLoadouts/raw/main/ProfileLoadouts.user.js
@@ -16,7 +16,7 @@
 
     const urlParams = new URLSearchParams(window.location.search);
     const userId = urlParams.get('XID');
-    const APIKey = ''; // Replace with your API key 
+    const APIKey = 'APIKEYGOESHERE'; // Replace with your API key 
 
     if (!userId) {
         console.error("User ID not found in the URL.");
